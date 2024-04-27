@@ -19,7 +19,7 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "HTML/CSS"
-    url: /categories/html_css/
+    url: /categories/htmlcss/
   - title: "JavaScript"
     url: /categories/javascript/
   - title: "TypeScript"
