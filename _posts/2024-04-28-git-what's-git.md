@@ -17,7 +17,9 @@ last_modified_at: 2024-04-28
 ---
 
 # 🎁 Git & GitHub 이해하기
-![git-logic](../assets/images/posts_img/post-git-here/git&github-base.png)
+<img src="../assets/images/posts_img/categories04-git/001gitLogic.png" alt="git-logic">
+
+![git_logic](../assets/images/posts_img/categories04-git/001gitLogic.png)
 
 ## Git
 Git 이란 <mark>버전 관리 시스템(VCS)</mark> 중 하나로, 프로젝트의 소스 코드나 파일들의 변경 이력을 관리하고 추적하는 도구이다. 
