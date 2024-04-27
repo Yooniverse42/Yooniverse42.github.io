@@ -20,9 +20,11 @@ main:
 categories:
   - title: "HTML/CSS"
     url: /categories/html_css/
-  - title: "Categories2"
-    url: /categories/categories2/
-  - title: "Categories3"
-    url: /categories/categories3/
-  - title: "Categories4"
-    url: /categories/categories4/
+  - title: "JavaScript"
+    url: /categories/javascript/
+  - title: "TypeScript"
+    url: /categories/typescript/
+  - title: "Git"
+    url: /categories/git/
+  - title: "etc"
+    url: /categories/etc/
