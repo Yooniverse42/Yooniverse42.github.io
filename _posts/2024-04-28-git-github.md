@@ -20,7 +20,7 @@ last_modified_at: 2024-04-28
 ![git logic](../assets/images/posts_img/post-git-here/git&github-base.png)
 
 ## Git
-Git 이란 <mark>버전 관리 시스템(VCS)</mark> 중 하나로, 프로젝트의 소스 코드나 파일들의 변경 이력을 관리하고 추적하는 도구이다.
+Git 이란 <mark>버전 관리 시스템(VCS)</mark> 중 하나로, 프로젝트의 소스 코드나 파일들의 변경 이력을 관리하고 추적하는 도구이다. 
 작동방식은 스냅샷 방식으로 여러 명의 개발자가 동시에 작업할 수 있고, 변경 사항 추적과 관리할 수 있다. 이를 통해 프로젝트의 버전을 관리하고, 이전 상태로 손쉽게 복구하거나 변경 사항을 비교할 수 있다.
 위쪽의 작동 구조 이미지를 보면 쉽게 이해할 수 있다.
 내 컴퓨터 : `Working Directory`, `Staging Area`, `local Repositoy`
