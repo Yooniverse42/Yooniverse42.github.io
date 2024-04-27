@@ -7,12 +7,12 @@ categories:
 tags:
   - [git, github]
 
-permalink: /git/post-git-here/
+permalink: /git/what's-git/
 
 toc: true
 toc_sticky: true
 
-date: 2024-04-28
+date: 2024-04-27
 last_modified_at: 2024-04-28
 ---
 
