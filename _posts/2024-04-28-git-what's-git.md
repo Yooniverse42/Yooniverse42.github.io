@@ -17,7 +17,7 @@ last_modified_at: 2024-04-28
 ---
 
 # 🎁 Git & GitHub 이해하기
-<img src="../assets/images/posts_img/categories04-git/001gitLogic.png" alt="git-logic" height="3em">
+<img src="../assets/images/posts_img/categories04-git/001gitLogic.png" alt="git-logic">
 
 ![git_logic](../assets/images/posts_img/categories04-git/001gitLogic.png)
 
