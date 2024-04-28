@@ -1,4 +1,4 @@
-p---
+---
 title: "Git & GitHub 개념 및 용어"
 excerpt: "Git/GitHub에 대해서 전체적인 작동 구조와 개념, 용어에 대해 알아보자 "
 
