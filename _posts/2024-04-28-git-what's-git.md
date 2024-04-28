@@ -17,7 +17,7 @@ last_modified_at: 2024-04-28
 ---
 
 # 🎁 Git & GitHub 이해하기
-<img src="https://Yooniverse42.github.io/assets/images/posts_img/categories04-git/001gitLogic.png" alt="git-logic">
+<img src="https://Yooniverse42.github.io/assets/images/posts_img/categories04-git/001-gitLogic.png" alt="git-logic">
 
 
 ## Git
@@ -27,8 +27,11 @@ Git 이란 <mark>버전 관리 시스템(VCS)</mark> 중 하나로, 프로젝트
 **내 컴퓨터 (local)** : `Working Directory`, `Staging Area`, `local Repositoy`  
 **원격(remote, GitHub)** : `Remote Repository`
 
+## GitHub
+GitHub는 Git을 기반으로한 <mark>웹 기반의 호스팅 서비스</mark>로, Git 저장소를 호스팅하고 버전 관리를 위한 다양한 기능을 제공한다. GitHub를 사용하면 개발자들은 프로젝트를 협업하고 관리할 수 있으며, 소스 코드를 온라인 상에서 공유하고 협업할 수 있다.
 
-## Git 용어 및 명령어
+
+## Git 관련 용어 및 주요 명령어
 ### <u>Working Directory</u>
 >내 컴퓨터에 있는 작업 폴더를 말한다. Git에서 관리하지만 추적은 하지 않는다.
 
@@ -54,28 +57,30 @@ Git에 저장하는 단계로, *Staging Area* 에 있는 변경된 파일을 *Lo
 >`git push` `git push origin [가지 이름]`  
 로컬 저장소의 커밋들을 원격저장소로 업로드하는 단계이다. 커밋한 파일들은 아직 원격 저장소가 아닌 로컬 저장소의 **HEAD** 안에 머물고 있어 push를 이용하여 원격 서버로 올려야 한다.
 
+### <u>Branch</u>
+>`git branch [new 가지 이름]` : 가지 생성  
+이름 그대로 '가지를 친다' 라고 말한다. 저장소를 만들면 기본으로 **main(또는 master)** 가지가 만들어지고 거기서 다른 가지( = branch)를 만들어 개발을 하는 것이다. 개발이 완료되면 **main(또는 master)** 가지로 돌아와 병합 (merge)를 하면 된다.
+
+### <u>Pull</u>
+>`git pull`  
+내 컴퓨터에 있는 로컬 저장소를 원격 저장소에 맞춰 갱신할 때 사용하며, 원격 저장소의 변경 내용이 로컬 작업 디렉토리에 받아지고(fetch) 병합(merge)된다. **pull**을 이용하면 최신 상태의 원격 저장소 파일을 받을 수 있어 작업 시작 시에 이용하기 좋다.
+
+### <u>Merge</u>
+>`git merge [new 가지 이름]`  
+두 개의 다른 브랜치를 하나로 합치는 명령어이다. 하지만 병합 중 충돌(conflicts)이 일어날 때도 있다. 그럼 git은 충돌 부분을 알려주고, 내가 직접 수정하여 병합이 가능하도록 한다.  
+`git diff [원래 가지 이름] [new 가지 이름]` 을 이용하면 변경 내용을 병합하기 전에 어떻게 바뀌었는지 비교할 수 있다.
+
+### <u>Checkout</u>
+>`git checkout --[파일 이름]`  
+오래된 Git 명령어로, 브랜치 전환, 새 브랜치 생성, 파일 복구 등 다양한 작업을 처리하는데 사용한다. 만약 파일의 변경 사항이 잘못 되었을 때, checkout을 통해 변경 전 상태(HEAD)로 되돌려 준다.
+>>만약 로컬에 있는 모든 변경 내용과 확정본을 **포기**하려면, `git fetch origin` 또는 `git reset --hard origin/master`로 원격 저장소의 최신 이력으로 가져오고, 로컬 master 가지가 저 이력을 가리키도록 할 수 있다. 
+
+### <u>Switch</u>
+> `git switch [가지 이름]`  
+말 그대로 브랜치를 변경할 때 사용하고, `-c`를 추가하면 새 브랜치 생성 및 이동을 할 수 있다. **checkout**과 기능적으로 중복되는 부분이 있지만 가지간 이동할 때 switch 사용을 하는 것이 편하다.
+
+
 ### <u>Fetch</u>
->`git fetch`
-작성중
-
-
-
-
-
-
-
-
-
-## GitHub
-GitHub는 Git을 기반으로한 <mark>웹 기반의 호스팅 서비스</mark>로, Git 저장소를 호스팅하고 버전 관리를 위한 다양한 기능을 제공한다. GitHub를 사용하면 개발자들은 프로젝트를 협업하고 관리할 수 있으며, 소스 코드를 온라인 상에서 공유하고 협업할 수 있다.
-
-<br />
-
-## GitHub 용어 정리
-### Repository
-스테이지에서 대기하고 있던 파일들을 버전으로 만들어 저장하는 곳이다.
-Gi은 원격(remote) 저장소와 로컬(local) 저장소, 두 종류의 저장소를 제공한다.
-
-### Remote Repositry(원격 저장소)
-
+>`git fetch`  
+원격 저장소에서 최신 데이터 정보를 확인할 뿐, 변경된 데이터를 로컬 Git에 실제로 가져오지는 않는다. 그래서 병합 전 변경 내용을 검토할 수 있어, pull 보다는 fetch가 안전하다.
 
