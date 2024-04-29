@@ -12,8 +12,8 @@ permalink: /git/ssh-keygen/
 toc: true
 toc_sticky: true
 
-date: 2024-04-28
-last_modified_at: 2024-04-28
+date: 2024-04-29
+last_modified_at: 2024-04-29
 ---
 
 # 🔐 ssh key 등록법을 알아보자.
