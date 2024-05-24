@@ -21,11 +21,7 @@ categories:
   - title: "HTML"
     url: /categories/html/
   - title: "CSS"
-    children:
-      - title: "CSS"
-        url: /categories/css/
-      - title: "CSSBattle"
-        url: /categories/cssbattle/
+    url: /categories/css/
   - title: "JavaScript"
     url: /categories/javascript/
   - title: "TypeScript"

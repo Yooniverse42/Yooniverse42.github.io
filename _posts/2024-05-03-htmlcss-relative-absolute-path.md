@@ -6,7 +6,7 @@ categories: - CSSBattle
 tags:
   - [HTML, CSS, path]
 
-permalink: /css/cssbattle/relative-absolute-path/
+permalink: /cssbattle/relative-absolute-path/
 
 toc: true
 toc_sticky: true
