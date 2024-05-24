@@ -2,8 +2,7 @@
 title: "절대경로와 상대경로 차이"
 excerpt: "절대경로와 상대경로, 경로 읽는 법에 대해 알아보자"
 
-categories:
-  -HTML/CSS
+categories: -HTML/CSS
 tags:
   - [HTML, CSS, path]
 
@@ -21,8 +20,8 @@ last_modified_at: 2024-05-03
 컴퓨터 폴더나 사이트에서 많이 보이는 “슬래시(/)”는 경로를 나타냄.  
 경로에는 절대경로와 상대경로가 있음.
 
-- 절대경로 : 인터넷, url로 접속가능한 경로 또는 root부터 해당 파일까지 전체 경로(URL)
-- 상대경로 : (통상적으로) 개발 환경에서 시작되는 경로
+- 절대경로 : 최상위, 즉 루트부터 시작하는 경로이다. 인터넷, url로 접속가능한 경로 또는 root부터 해당 파일까지 전체 경로 등이 있다.
+- 상대경로 : 현재 파일을 기준으로 시작하는 경로이다.
   - . : 현재 파일이 위치한 경로
   - .. : 이전 경로, 상위 경로
   - / : 구분
@@ -33,19 +32,11 @@ last_modified_at: 2024-05-03
 
 ## 상대경로로 파일 불러오기 🗄️
 
-***[A]폴더***
-
-- ***[a]폴더***
-    - *[사진]폴더*
-        - *picture_3.png*
-    - *index.html*
-    - *picture_2.png*
-- ***picture_1.png***
+![path0](https://Yooniverse42.github.io/assets/images/posts_img/categories01-htmlcss/002-00-path.png)
 
 나의 문서 파일에 위와 같이 정리된 폴더들과 사진들, 그리고 코딩 중인 html 파일이 있다고 가정 해보자.
 
 여기서 picture_1.png, picture_2.png, picture_3.png 불러내는 방법은 아래와 같다.
-
 
 ⌨️ picture_1.png 불러오기
 
@@ -89,10 +80,8 @@ html파일은 [a]폴더에 있고 3번 사진은 [a]폴더 안에 [사진]폴더
 
 ![path1](https://Yooniverse42.github.io/assets/images/posts_img/categories01-htmlcss/002-01-path.png)
 
-
- 여기서 상단바 메뉴 중 ‘개발 환경 설정’ 이라는 메뉴를 들어가게 되면 url주소가 [https://subicura.com/mac/dev/hello.html](https://subicura.com/mac/dev/hello.html) 라고 되어있고 첫 번째 주소에서 dev/hello.html 이 추가된 것을 확인할 수 있다.
+여기서 상단바 메뉴 중 ‘개발 환경 설정’ 이라는 메뉴를 들어가게 되면 url주소가 [https://subicura.com/mac/dev/hello.html](https://subicura.com/mac/dev/hello.html) 라고 되어있고 첫 번째 주소에서 dev/hello.html 이 추가된 것을 확인할 수 있다.
 
 ![path2](https://Yooniverse42.github.io/assets/images/posts_img/categories01-htmlcss/002-02-path.png)
 
-
- 그럼 저 주소를 보고 유추할 수 있는 것은 첫 번째와 두 번째 사이트는 같은 사이트이고 두 번째 사이트는 첫 번째 사이트에서 dev 폴더 안에 있는 hello.html 인가보다 라고 생각해볼 수 있다.
+그럼 저 주소를 보고 유추할 수 있는 것은 첫 번째와 두 번째 사이트는 같은 사이트이고 두 번째 사이트는 첫 번째 사이트에서 dev 폴더 안에 있는 hello.html 인가보다 라고 생각해볼 수 있다.
