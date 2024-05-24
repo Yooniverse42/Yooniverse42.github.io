@@ -3,11 +3,11 @@ title: "!DOCTYPE 선언하는 이유"
 excerpt: "HTML 작성시 &lt;!DOCTYPE html&gt;을 선언하는 이유에 대해 알아보자"
 
 categories:
-  -HTML/CSS
+  - HTML
 tags:
   - [HTML, CSS, DOCTYPE]
 
-permalink: /htmlcss/doctype-declaration/
+permalink: /htmlcss/html/doctype-declaration/
 
 toc: true
 toc_sticky: true
@@ -19,9 +19,10 @@ last_modified_at: 2024-05-02
 # 📌 HTML 작성시 &lt;!DOCTYPE html&gt;을 선언하는 이유
 
 > html 최신 문서라는 것을 알려주기 위함이다.
-`<!DOCTYPE html>`을 선언하지 않는다면 브라우저가 현재 읽고 있는 html의 버전을 알 수 없어 html의 디자인 같은 것들을 마음대로 렌더링하게 된다.
+> `<!DOCTYPE html>`을 선언하지 않는다면 브라우저가 현재 읽고 있는 html의 버전을 알 수 없어 html의 디자인 같은 것들을 마음대로 렌더링하게 된다.
 
 ### `<!DOCTYPE html>` 선언했을 때 👇🏻
+
 ```
 <!DOCTYPE html>
 <html>
@@ -44,6 +45,7 @@ last_modified_at: 2024-05-02
 <br>
 
 ### `<!DOCTYPE html>` 선언하지 않았을 때 👇🏻
+
 ```
 <html>
 <head>
