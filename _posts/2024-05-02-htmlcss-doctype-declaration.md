@@ -7,7 +7,7 @@ categories:
 tags:
   - [HTML, CSS, DOCTYPE]
 
-permalink: /htmlcss/html/doctype-declaration/
+permalink: /html/doctype-declaration/
 
 toc: true
 toc_sticky: true
