@@ -2,11 +2,11 @@
 title: "절대경로와 상대경로 차이"
 excerpt: "절대경로와 상대경로, 경로 읽는 법에 대해 알아보자"
 
-categories: - CSSBattle
+categories: - CSS
 tags:
   - [HTML, CSS, path]
 
-permalink: /cssbattle/relative-absolute-path/
+permalink: /css/relative-absolute-path/
 
 toc: true
 toc_sticky: true
