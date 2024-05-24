@@ -1,9 +1,9 @@
 ---
-title: "css"
+title: "HTML/CSS"
 layout: category
-permalink: /categories/css/
+permalink: /categories/htmlcss/
 author_profile: true
-taxonomy: CSS
+taxonomy: HTML/CSS
 sidebar:
   nav: "categories"
 ---

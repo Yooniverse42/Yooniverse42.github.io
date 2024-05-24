@@ -18,9 +18,15 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "HTML"
-    url: /categories/html/
-  - title: "CSS"
+  - title: "HTML/CSS"
+    children:
+      - title: "HTML"
+        url: /categories/html/
+      - title: "CSS"
+        url: /categories/css/
+      - title: "CSSBattle"
+        url: /categories/cssbattle/
+
     url: /categories/css/
   - title: "JavaScript"
     url: /categories/javascript/
