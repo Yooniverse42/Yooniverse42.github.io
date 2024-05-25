@@ -40,7 +40,7 @@ last_modified_at: 2024-05-02
 </html>
 ```
 
-![doctype01](https://Yooniverse42.github.io/assets/images/posts_img/categories01-htmlcss/001-01-doctype.png)
+![doctype01](https://Yooniverse42.github.io/assets/images/posts_img/categories01-html/001-01-doctype.png)
 
 <br>
 
@@ -62,4 +62,4 @@ last_modified_at: 2024-05-02
 </html>
 ```
 
-![doctype02](https://Yooniverse42.github.io/assets/images/posts_img/categories01-htmlcss/001-02-doctype.png)
+![doctype02](https://Yooniverse42.github.io/assets/images/posts_img/categories01-html/001-02-doctype.png)

@@ -33,7 +33,7 @@ last_modified_at: 2024-05-03
 
 ## 상대경로로 파일 불러오기 🗄️
 
-![path0](https://Yooniverse42.github.io/assets/images/posts_img/categories01-htmlcss/002-00-path.png)
+![path0](https://Yooniverse42.github.io/assets/images/posts_img/categories01-html/002-00-path.png)
 
 나의 문서 파일에 위와 같이 정리된 폴더들과 사진들, 그리고 코딩 중인 html 파일이 있다고 가정 해보자.
 
@@ -79,10 +79,10 @@ html파일은 [a]폴더에 있고 3번 사진은 [a]폴더 안에 [사진]폴더
 
 예를 들어 ‘macOS 안내서’를 들어가보면 url주소가 [https://subicura.com/mac/](https://subicura.com/mac/) 이라고 적혀 있는 것을 확인할 수 있다.
 
-![path1](https://Yooniverse42.github.io/assets/images/posts_img/categories01-htmlcss/002-01-path.png)
+![path1](https://Yooniverse42.github.io/assets/images/posts_img/categories01-html/002-01-path.png)
 
 여기서 상단바 메뉴 중 ‘개발 환경 설정’ 이라는 메뉴를 들어가게 되면 url주소가 [https://subicura.com/mac/dev/hello.html](https://subicura.com/mac/dev/hello.html) 라고 되어있고 첫 번째 주소에서 dev/hello.html 이 추가된 것을 확인할 수 있다.
 
-![path2](https://Yooniverse42.github.io/assets/images/posts_img/categories01-htmlcss/002-02-path.png)
+![path2](https://Yooniverse42.github.io/assets/images/posts_img/categories01-html/002-02-path.png)
 
 그럼 저 주소를 보고 유추할 수 있는 것은 첫 번째와 두 번째 사이트는 같은 사이트이고 두 번째 사이트는 첫 번째 사이트에서 dev 폴더 안에 있는 hello.html 인가보다 라고 생각해볼 수 있다.
