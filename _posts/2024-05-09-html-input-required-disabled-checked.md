@@ -1,5 +1,5 @@
 ---
-title: "&lt;input&gt; 속성 추가 - required, disabled, checked"
+title: "input - required, disabled, checked"
 excerpt: "input 요소에 들어갈 속성 중 required, disabled, checked에 대해 알아보자."
 
 categories:
