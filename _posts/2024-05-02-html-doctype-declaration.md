@@ -23,20 +23,20 @@ last_modified_at: 2024-05-02
 
 ### `<!DOCTYPE html>` 선언했을 때 👇🏻
 
-```
+```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Document</title>
     <style>
-        body{
-            border: 4px solid blue;
-        }
+      body {
+        border: 4px solid blue;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>안녕하세요!</h1>
-</body>
+  </body>
 </html>
 ```
 
@@ -46,19 +46,19 @@ last_modified_at: 2024-05-02
 
 ### `<!DOCTYPE html>` 선언하지 않았을 때 👇🏻
 
-```
+```html
 <html>
-<head>
+  <head>
     <title>Document</title>
     <style>
-        body{
-            border: 4px solid blue;
-        }
+      body {
+        border: 4px solid blue;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>안녕하세요!</h1>
-</body>
+  </body>
 </html>
 ```
 
